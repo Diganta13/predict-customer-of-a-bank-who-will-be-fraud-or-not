@@ -17,7 +17,7 @@
 
 
 import pandas as pd
-dataset = pd.read_csv('customer_info.csv')
+dataset = pd.read_csv('bank_fraud_detector.csv')
 X = dataset.iloc[:, 3:13].values
 Y = dataset.iloc[:, -1].values
 
